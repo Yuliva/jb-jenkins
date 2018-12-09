@@ -2,7 +2,7 @@
 To learn groovy:http://groovy-lang.org/learn.html
 ------------------------------------------------
 
-Manage Jenkins => Script Console 
+Manage Jenkins => Script Console  
 
 1. DSL (domain specific language) vs GPL (general purpose programming language)
 
@@ -65,7 +65,7 @@ getTextMessage()
 
 def job = Jenkins.instance.getItemByFullName("pipeline-with-maven")
 
-// Get last build number of the JOB
+// Get last build number of the JOB --yv
 println "LAST BUILD:" + job.lastBuild
 
 // Print all JOB builds
